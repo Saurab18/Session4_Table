@@ -1,1 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Language Stats</title>
 
+    <link rel="stylesheet" href="Table.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
+</head>
+<body>
+
+    <main>
+        <table>
+                <tr class="pen">
+                    <th id="tren"># Ranking</th>
+                    <th class="prompt">Programming Language</th>
+                    <th class="prompt">Percentage (YoY Change)</th>
+                    <th id="tren">YoY Trend</th>                    
+                </tr>
+
+                <tr class="optics">
+                    <td tabindex="1" class="amaze">1</td>
+                    <td tabindex="2" class="nice">Python</td>
+                    <td tabindex="3" class="nice">16.756%
+                            <font size="1">
+                                (<font color="green">+0.793%</font>)
+                            </font>
+                    </td>
+                    <td tabindex="4" class="amaze">
+                        <div>
+                            <span class="angup"></span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="optics">
+                    <td tabindex="5" class="amaze">2</td>
+                    <td tabindex="6" class="nice">Java</td>
+                    <td tabindex="7" class="nice">11.005%
+                        <font size="1">
+                            (<font color="red">-1.988%</font>)
+                        </font>
+                    </td>
+                    <td tabindex="8" class="amaze">
+                        <div>
+                            <span class="angup"></span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="optics">
+                    <td tabindex="9" class="amaze">3</td>
+                    <td tabindex="10" class="nice">C++</td>
+                    <td tabindex="11" class="nice">10.254%
+                        <font size="1">
+                            (<font color="green">+3.563%</font>)
+                        </font>
+                    </td>
+                    <td tabindex="12" class="amaze">
+                        <div>
+                            <span class="angup"></span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="optics">
+                    <td tabindex="13" class="amaze">4</td>
+                    <td tabindex="14" class="nice">Go</td>
+                    <td tabindex="15" class="nice">9.657%
+                        <font size="1">
+                            (<font color="green">+1.445%</font>)
+                        </font>
+                    </td>
+                    <td tabindex="16" class="amaze">
+                        <!-- <div>
+                            <span class="angup"></span>
+                        </div> -->
+                    </td>
+                </tr>
+
+                <tr class="optics">
+                    <td tabindex="17" class="amaze">5</td>
+                    <td tabindex="18" class="nice">Javascript</td>
+                    <td tabindex="19" class="nice">9.286%
+                        <font size="1">
+                            (<font color="red">-8.690%</font>)
+                        </font>
+                    </td>
+                    <td tabindex="20" class="amaze">
+                        <div>
+                            <span class="ang2down"></span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="optics">
+                    <td tabindex="21" class="amaze">6</td>
+                    <td tabindex="22" class="nice">Typescript</td>
+                    <td tabindex="23" class="nice">7.750%
+                        <font size="1">
+                            (<font color="green">+0.529%</font>)
+                        </font>
+                    </td>
+                    <td tabindex="24" class="amaze">
+                        <div>
+                            <span class="angdown"></span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="optics">
+                    <td tabindex="25" class="amaze">7</td>
+                    <td tabindex="26" class="nice">PHP</td>
+                    <td tabindex="27" class="nice">5.036%
+                        <font size="1">
+                            (<font color="green">+0.094%</font>)
+                        </font>
+                    </td>
+                    <td tabindex="28" class="amaze">
+                        <div>
+                            <span class="angup"></span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="optics">
+                    <td tabindex="29" class="amaze">8</td>
+                    <td tabindex="30" class="nice">Ruby</td>
+                    <td tabindex="31" class="nice">4.948%
+                        <font size="1">
+                            (<font color="red">-1.547%</font>)
+                        </font>
+                    </td>
+                    <td tabindex="32" class="amaze">
+                        <div>
+                            <span class="angdown"></span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="optics">
+                    <td tabindex="33" class="amaze">9</td>
+                    <td tabindex="34" class="nice">C</td>
+                    <td tabindex="35" class="nice">4.271
+                        <font size="1">
+                            (<font color="green">+1.309%</font>)
+                        </font>
+                    </td>
+                    <td tabindex="36" class="amaze">
+                        <div>
+                            <span class="angup"></span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="optics">
+                    <td tabindex="37" class="amaze">10</td>
+                    <td tabindex="38" class="nice">C#</td>
+                    <td tabindex="39" class="nice">3.638%
+                        <font size="1">
+                            (<font color="green">+0.269%</font>)
+                        </font>
+                    </td>
+                    <td tabindex="40" class="amaze">
+                        <div>
+                            <span class="angdown"></span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="optics">
+                    <td tabindex="41" class="amaze">11</td>
+                    <td tabindex="42" class="nice">Nix</td>
+                    <td tabindex="43" class="nice">3.248%
+                        <font size="1">
+                            (<font color="green">+1.240%</font>)
+                        </font>
+                    </td>
+                    <td tabindex="44" class="amaze">
+                        <div>
+                            <span class="angup"></span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="optics">
+                    <td tabindex="45" class="amaze">12</td>
+                    <td tabindex="46" class="nice">Scala</td>
+                    <td tabindex="47" class="nice">2.497%
+                        <font size="1">
+                            (<font color="green">+0.683%</font>)
+                        </font>
+                    </td>
+                    <td tabindex="48" class="amaze">
+                        <div>
+                            <span class="angup"></span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="optics">
+                    <td tabindex="49" class="amaze">13</td>
+                    <td tabindex="50" class="nice">Shell</td>
+                    <td tabindex="51" class="nice">2.414%
+                        <font size="1">
+                            (<font color="green">+0.237%</font>)
+                        </font>
+                    </td>
+                    <td tabindex="52" class="amaze">
+                        <div>
+                            <span class="angdown"></span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="optics">
+                    <td tabindex="53" class="amaze">14</td>
+                    <td tabindex="54" class="nice">Kotlin</td>
+                    <td tabindex="55" class="nice">1.372%
+                        <font size="1">
+                            (<font color="green">+0.736%</font>)
+                        </font>
+                    </td>
+                    <td tabindex="56" class="amaze">
+                        <div>
+                            <span class="angup"></span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="optics">
+                    <td tabindex="57" class="amaze">15</td>
+                    <td tabindex="58" class="nice">Rust</td>
+                    <td tabindex="59" class="nice">1.332%
+                        <font size="1">
+                            (<font color="green">+0.689%</font>)
+                        </font>
+                    </td>
+                    <td tabindex="60" class="amaze">
+                        <div>
+                            <span class="angup"></span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="optics">
+                    <td tabindex="61" class="amaze">16</td>
+                    <td tabindex="62" class="nice">Dart</td>
+                    <td tabindex="63" class="nice">1.017%
+                        <font size="1">
+                            (<font color="red">-0.073%</font>)
+                        </font>
+                    </td>
+                    <td tabindex="64" class="amaze">
+                        <div>
+                            <span class="angdown"></span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="optics">
+                    <td tabindex="65" class="amaze">17</td>
+                    <td tabindex="66" class="nice">Swift</td>
+                    <td tabindex="67" class="nice">0.886%
+                        <font size="1">
+                            (<font color="green">+0.229%</font>)
+                        </font>
+                    </td>
+                    <td tabindex="68" class="amaze">
+                        <div>
+                            <span class="angdown"></span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="optics">
+                    <td tabindex="69" class="amaze">18</td>
+                    <td tabindex="70" class="nice">DM</td>
+                    <td tabindex="71" class="nice">0.407%
+                        <font size="1">
+                            (<font color="green">+0.071%</font>)
+                        </font>
+                    </td>
+                    <td tabindex="72" class="amaze">
+                        <div>
+                            <span class="angup"></span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="optics">
+                    <td tabindex="73" class="amaze">19</td>
+                    <td tabindex="74" class="nice">SystemVerilog</td>
+                    <td tabindex="75" class="nice">0.330%
+                        <font size="1">
+                            (<font color="green">+0.133%</font>)
+                        </font>
+                    </td>
+                    <td tabindex="76" class="amaze">
+                        <div>
+                            <span class="ang2up"></span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="optics">
+                    <td tabindex="77" class="amaze">20</td>
+                    <td tabindex="78" class="nice">Lua</td>
+                    <td tabindex="79" class="nice">0.326%
+                        <font size="1">
+                            (<font color="green">+0.179%</font>)
+                        </font>
+                    </td>
+                    <td tabindex="80" class="amaze">
+                        <div>
+                            <span class="ang2up"></span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="optics">
+                    <td tabindex="81" class="amaze">21</td>
+                    <td tabindex="82" class="nice">Perl</td>
+                    <td tabindex="83" class="nice">0.317%
+                        <font size="1">
+                            (<font color="green">+0.030%</font>)
+                        </font>
+                    </td>
+                    <td tabindex="84" class="amaze">
+                        <div>
+                            <span class="angup"></span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="optics">
+                    <td tabindex="85" class="amaze">22</td>
+                    <td tabindex="86" class="nice">Groovy</td>
+                    <td tabindex="87" class="nice">0.308%
+                        <font size="1">
+                            (<font color="red">-0.035%</font>)
+                        </font>
+                    </td>
+                    <td tabindex="88" class="amaze">
+                        <div>
+                            <span class="ang2down"></span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="optics">
+                    <td tabindex="89" class="amaze">23</td>
+                    <td tabindex="90" class="nice">Objective-C</td>
+                    <td tabindex="91" class="nice">0.256%
+                        <font size="1">
+                            (<font color="red">-0.039%</font>)
+                        </font>
+                    </td>
+                    <td tabindex="92" class="amaze">
+                        <div>
+                            <span class="angdown"></span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="optics">
+                    <td tabindex="93" class="amaze">24</td>
+                    <td tabindex="94" class="nice">Lean</td>
+                    <td tabindex="95" class="nice">0.224%
+                        <font size="1">
+                            (<font color="green">+0.000%</font>)
+                        </font>
+                    </td>
+                    <td tabindex="96" class="amaze">
+                        <div>
+                            <span class="ang2up"></span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="optics">
+                    <td tabindex="97" class="amaze">25</td>
+                    <td tabindex="98" class="nice">Haskell</td>
+                    <td tabindex="99" class="nice">0.213%
+                        <font size="1">
+                            (<font color="green">+0.065%</font>)
+                        </font>
+                    </td>
+                    <td tabindex="100" class="amaze">
+                        <div>
+                            <span class="ang2up"></span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="optics">
+                    <td tabindex="101" class="amaze">26</td>
+                    <td tabindex="102" class="nice">Elixir</td>
+                    <td tabindex="103" class="nice">0.197%
+                        <font size="1">
+                            (<font color="red">-0.107%</font>)
+                        </font>
+                    </td>
+                    <td tabindex="104" class="amaze">
+                        <div>
+                            <span class="ang2down"></span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="optics">
+                    <td tabindex="105" class="amaze">27</td>
+                    <td tabindex="106" class="nice">OCaml</td>
+                    <td tabindex="107" class="nice">0.176%
+                        <font size="1">
+                            (<font color="red">-0.002%</font>)
+                        </font>
+                    </td>
+                    <td tabindex="108" class="amaze">
+                        <!-- <div>
+                            <span class="ang2up"></span>
+                        </div> -->
+                    </td>
+                </tr>
+
+                <tr class="optics">
+                    <td tabindex="109" class="amaze">28</td>
+                    <td tabindex="110" class="nice">CodeQL</td>
+                    <td tabindex="111" class="nice">0.168%
+                        <font size="1">
+                            (<font color="green">+0.000%</font>)
+                        </font>
+                    </td>
+                    <td tabindex="112" class="amaze">
+                        <div>
+                            <span class="ang2up"></span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="optics">
+                    <td tabindex="113" class="amaze">29</td>
+                    <td tabindex="114" class="nice">Clojure</td>
+                    <td tabindex="115" class="nice">0.149%
+                        <font size="1">
+                            (<font color="red">-0.030%</font>)
+                        </font>
+                    </td>
+                    <td tabindex="116" class="amaze">
+                        <div>
+                            <span class="angdown"></span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="optics">
+                    <td tabindex="117" class="amaze">30</td>
+                    <td tabindex="118" class="nice">PowerShell</td>
+                    <td tabindex="119" class="nice">0.138%
+                        <font size="1">
+                            (<font color="red">-0.056%</font>)
+                        </font>
+                    </td>
+                    <td tabindex="120" class="amaze">
+                        <div>
+                            <span class="ang2down"></span>
+                        </div>
+                    </td>
+                </tr>
+                
+                <tr class="optics">
+                    <td tabindex="121" class="amaze">31</td>
+                    <td tabindex="122" class="nice">Emacs Lisp</td>
+                    <td tabindex="123" class="nice">0.117%</td>
+                    <td tabindex="124" class="amaze">
+                        <!-- <div>
+                            <span class="ang2down"></span>
+                        </div> -->
+                    </td>
+                </tr>
+
+                <tr class="optics">
+                    <td tabindex="125" class="amaze">32</td>
+                    <td tabindex="126" class="nice">Erlang</td>
+                    <td tabindex="127" class="nice">0.113%</td>
+                    <td tabindex="128" class="amaze">
+                        <div>
+                            <span class="ang2down"></span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="optics">
+                    <td tabindex="129" class="amaze">33</td>
+                    <td tabindex="130" class="nice">Julia</td>
+                    <td tabindex="131" class="nice">0.092%</td>
+                    <td tabindex="132" class="amaze">
+                        <div>
+                            <span class="angup"></span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="optics">
+                    <td tabindex="133" class="amaze">34</td>
+                    <td tabindex="134" class="nice">F#</td>
+                    <td tabindex="135" class="nice">0.089%</td>
+                    <td tabindex="136" class="amaze">
+                        <div>
+                            <span class="angup"></span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="optics">
+                    <td tabindex="137" class="amaze">35</td>
+                    <td tabindex="138" class="nice">Bicep</td>
+                    <td tabindex="139" class="nice">0.078%</td>
+                    <td tabindex="140" class="amaze">
+                        <div>
+                            <span class="ang2up"></span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="optics">
+                    <td tabindex="141" class="amaze">36</td>
+                    <td tabindex="142" class="nice">Assembly</td>
+                    <td tabindex="143" class="nice">0.067%</td>
+                    <td tabindex="144" class="amaze">
+                        <div>
+                            <span class="ang2up"></span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="optics">
+                    <td tabindex="145" class="amaze">37</td>
+                    <td tabindex="146" class="nice">CoffeeScript</td>
+                    <td tabindex="147" class="nice">0.066%</td>
+                    <td tabindex="148" class="amaze">
+                        <div>
+                            <span class="ang2down"></span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="optics">
+                    <td tabindex="149" class="amaze">38</td>
+                    <td tabindex="150" class="nice">WebAssembly</td>
+                    <td tabindex="151" class="nice">0.064%</td>
+                    <td tabindex="152" class="amaze">
+                        <div>
+                            <span class="ang2up"></span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="optics">
+                    <td tabindex="153" class="amaze">39</td>
+                    <td tabindex="154" class="nice">Verilog</td>
+                    <td tabindex="155" class="nice">0.063%</td>
+                    <td tabindex="156" class="amaze">
+                        <div>
+                            <span class="ang2up"></span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="optics">
+                    <td tabindex="157" class="amaze">40</td>
+                    <td tabindex="158" class="nice">MATLAB</td>
+                    <td tabindex="159" class="nice">0.057%</td>
+                    <td tabindex="160" class="amaze">
+                        <div>
+                            <span class="angdown"></span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="optics">
+                    <td tabindex="161" class="amaze">41</td>
+                    <td tabindex="162" class="nice">Visual Basic .NET</td>
+                    <td tabindex="163" class="nice">0.047%</td>
+                    <td tabindex="164" class="amaze">
+                        <!-- <div>
+                            <span class="ang2down"></span>
+                        </div> -->
+                    </td>
+                </tr>
+
+                <tr class="optics">
+                    <td tabindex="165" class="amaze">42</td>
+                    <td tabindex="166" class="nice">R</td>
+                    <td tabindex="167" class="nice">0.046%</td>
+                    <td tabindex="168" class="amaze">
+                        <div>
+                            <span class="ang2down"></span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="optics">
+                    <td tabindex="169" class="amaze">43</td>
+                    <td tabindex="170" class="nice">Puppet</td>
+                    <td tabindex="171" class="nice">0.041%</td>
+                    <td tabindex="172" class="amaze">
+                        <div>
+                            <span class="angup"></span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="optics">
+                    <td tabindex="173" class="amaze">44</td>
+                    <td tabindex="174" class="nice">GAP</td>
+                    <td tabindex="175" class="nice">0.038%</td>
+                    <td tabindex="176" class="amaze">
+                        <div>
+                            <span class="ang2up"></span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="optics">
+                    <td tabindex="177" class="amaze">45</td>
+                    <td tabindex="178" class="nice">SourcePawn</td>
+                    <td tabindex="179" class="nice">0.036%</td>
+                    <td tabindex="180" class="amaze">
+                        <div>
+                            <span class="ang2up"></span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="optics">
+                    <td tabindex="181" class="amaze">46</td>
+                    <td tabindex="182" class="nice">MLIR</td>
+                    <td tabindex="183" class="nice">0.031%</td>
+                    <td tabindex="184" class="amaze">
+                        <div>
+                            <span class="ang2up"></span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="optics">
+                    <td tabindex="185" class="amaze">47</td>
+                    <td tabindex="186" class="nice">ZAP</td>
+                    <td tabindex="187" class="nice">0.029%</td>
+                    <td tabindex="188" class="amaze">
+                        <div>
+                            <span class="ang2up"></span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="optics">
+                    <td tabindex="189" class="amaze">48</td>
+                    <td tabindex="190" class="nice">ANTLR</td>
+                    <td tabindex="191" class="nice">0.028%</td>
+                    <td tabindex="192" class="amaze">
+                        <div>
+                            <span class="ang2up"></span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="optics">
+                    <td tabindex="193" class="amaze">49</td>
+                    <td tabindex="194" class="nice">Vim Script</td>
+                    <td tabindex="195" class="nice">0.036%</td>
+                    <td tabindex="196" class="amaze">
+                        <div>
+                            <span class="ang2up"></span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="optics">
+                    <td tabindex="197" class="amaze">50</td>
+                    <td tabindex="198" class="nice">hoon</td>
+                    <td tabindex="199" class="nice">0.026%</td>
+                    <td tabindex="200" class="amaze">
+                        <div>
+                            <span class="ang2up"></span>
+                        </div>
+                    </td>
+                </tr>
+
+        </table>
+    </main>
+    
+</body>
+</html>
